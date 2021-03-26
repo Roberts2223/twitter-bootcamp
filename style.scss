@@ -33,9 +33,25 @@ svg {
     
 
   }
-   .icon{
-       padding:25px;
-   }
+  .icon {
+    padding: 25px;
+    position: relative;
+  
+    .notification {
+      position: absolute;
+      top: -7px;
+      right: 5px;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      vertical-align: middle;
+      text-align: center;
+  
+      background: skyblue;
+      border-radius: 50px;
+    }
+  }
 
    .twitter-logo{
        margin-left:175px;
@@ -53,4 +69,9 @@ svg {
       position: relative;
       right: 40px;
       bottom:15px;
+  }
+
+
+  .asdadasdas {
+      background-color: red;
   }
